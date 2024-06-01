@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    font-style:italic;
+    box-sizing:border-box;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+body{
+    background-image:linear-gradient(to right,#01022d,#000);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow: hidden;
+}
+.container{
+    background-image:linear-gradient(to right , #01022de5 30%,#00000088)
+    ,url(photo.webp);
+    background-repeat: no-repeat;
+    width:90%;
+    height:600px;
+    background-position:center;
+
+}
+.container:hover{
+    background-image:linear-gradient(to right , #01022de5 30%,transparent)
+    ,url(photo.webp);
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px;
+}
+.logo{
+    font-size:30px;
+    text-transform: uppercase;
+}
+ul{
+    list-style:none;
+    display:flex;
+    width:60%;
+    justify-content:space-evenly;
+}
+ul a{
+    font-size:18px;
+    letter-spacing: 3px;
+    border-bottom:2px solid transparent;
+    transition:all 1s;
+}
+ul a:hover{
+    border-bottom-color:white;
+}
+.content{
+    width:50%;
+    margin-top:50px;
+    padding:50px;
+    color:#fff;
+}
+.content h2{
+    font-size:100px;
+    text-transform: uppercase;
+}
+.content p{
+    font-size:18px;
+    letter-spacing:3px;
+    width:350px;
+    padding:20px 0;
+}
+.content button{
+    font-size:30px;
+    padding:6px 10px;
+    border-radius:10px;
+    border:none;
+    border:2px solid transparent;
+}
+.content button:hover{
+    background-color:transparent;
+    border-color:#fff;
+    color:#fff;
+    cursor: pointer;
+}

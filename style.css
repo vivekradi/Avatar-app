@@ -90,3 +90,6 @@ ul a:hover{
     color:#fff;
     cursor: pointer;
 }
+.content h2{
+    color:red;
+}
